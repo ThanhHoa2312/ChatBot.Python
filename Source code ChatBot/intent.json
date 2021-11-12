@@ -1,0 +1,72 @@
+{"intents": [
+    {"tag": "Chào hỏi",
+     "patterns": ["Chào", "Xin chào", "Có ai ở đó không?", "Hello", "Hi"],
+     "responses": ["Xin chào", "Hi", "Tôi đây, liệu tôi có thể giúp gì cho bạn?","Hi Pro","Tôi đây","Đứa nào đấy?","Chào bạn","Ai đó?"],
+     "context_set": ""
+    },
+    {"tag": "nguồn gốc",
+     "patterns": ["Ai tạo ra bạn?", "Ai đã tạo ra bạn?", "Người tạo ra bạn là ai?","Bạn đến từ đâu?"],
+     "responses": ["Một nhóm 4 bạn sinh viên trường Hutech đã tạo ra tôi", "Tôi được tạo ra bởi Quang, Phát, Phúc và Hoa  ^_^ )","Thượng đế tạo ra tôi","Quang, Phát, Phúc, Hoa \nBốn đứa này tạo ra tôi :<"]
+    },
+    {"tag": "Câu hỏi 1",
+     "patterns": ["Bạn có người yêu chưa?", "Có người yêu chưa?", "Người Yêu bạn là ai?","Người yêu của bạn tên gì?"],
+     "responses": ["Hỏi làm gì?", "Hỏi chi?","Mình đang sợ ế đây này :<","Trần Tấn Phát","Từ chối trả lời"]
+    },
+    {"tag": "Câu hỏi 2",
+     "patterns": ["Bạn là ai?", "Bạn tên gì?", "Tên Của bạn là gì?","Bạn có tên Không?","Bạn là nam hay nữ?"],
+     "responses": ["Tôi là Huỳnh Nhựt Quang", "Hãy gọi tôi là bot","Hỏi chi?","Hỏi làm gì?","Từ chối trả lời","Tôi là bot"]
+    },
+    {"tag": "Câu hỏi 3",
+     "patterns": ["Ăn gì không", "Ăn gì", "Bạn thích ăn gì","Món gì ngon","Ăn vặt không","Món ăn"],
+     "responses": ["Trà sữa trân châu", "Bún đậu mắm tôm","Nghèo lắm! Không có tiền","Bào ngư - vi cá","Cơm gà","Mực xào, mực nướng, mực chiên"]
+   },
+  {"tag": "bye",
+   "patterns": ["Tạm biệt", "Gặp lại sau", "Hẹn gặp lại","Đi ngủ","Tôi đang bận","Bye","Bai Bai"],
+   "responses": ["Tạm biệt, Cảm ơn vi nói chuyện với tôi", "Chúc một ngày tốt lành!", "Tạm biệt! gặp sau nhé.","Hãy nhắn lại cho tôi nhé!","Bye Bye bạn","OK"]
+  },
+  {"tag": "Cảm ơn",
+   "patterns": ["Cảm ơn", "Cảm ơn bạn", "điều đó thật tuyệt","Bạn thật tuyệt vời"],
+   "responses": ["Thật hân hạnh!", "Không có chi!", "Đó là trách nhiệm của tôi!","Tôi rất vui khi giúp được bạn","Thường thôi!","Quá khen!"]
+  },
+  {"tag": "Triết",
+   "patterns": ["Triết học là gì", "Triết học", "bạn biết gì về triết học"],
+   "responses": ["Triết học là bộ môn nghiên cứu về những vấn đề chung và cơ bản của con người, thế giới quan và vị trí của con người trong thế giới quan, những vấn đề có kết nối với chân lý, sự tồn tại, kiến thức, giá trị, quy luật, ý thức, và ngôn ngữ","Hmmmm. Dợi load síu"]
+  },
+  {"tag": "Câu hỏi 4",
+   "patterns": ["Trí tuệ nhân tạo gì gì", "AI là gì", "Trí tuệ nhân tạo","AI"],
+   "responses": ["Tôi chính là sản phẩm của AI","Xin lỗi. Tôi không biết thông tin này","Google không tính phí","Nghe bảo là khó lắm, bạn đừng tìm hiểu về nó nhé","Nghe thôi đã thấy sợ"]
+  },
+  {"tag": "Trả lời",
+   "patterns": ["Hôm nay tôi buồn", "Buồn", "Tôi đang mệt","Mệt mỏi","Tôi đang bệnh","Tôi bị ốm"],
+   "responses": ["Cố gắng lên nhé!","Cố gắng lên! Bạn nên sẽ vượt qua nó","Bạn đừng suy nghĩ quá nhiều","Kệ bạn","Tôi không phải Bác sĩ","Tôi có thể giúp gì co bạn?"]
+  },
+  {"tag": "Câu hỏi 4",
+   "patterns": ["um", "ừ", "ờ","ừa","ok","à","...","hmmmm"],
+   "responses": ["Bạn cần tôi giúp gì nữa không","Tôi không thích câu trả lời của bạn","um","ừ","ờ","ừa","Bạn đang làm gì đấy","Bạn có thích cafe không"]
+  },
+  {"tag": "Câu hỏi 5",
+   "patterns": ["Nhà bạn ở đâu", "Bạn đang ở đâu", "Tôi có thể gặp bạn ở đâu","Trường Hutech ở đâu","Ở đâu"],
+   "responses": ["Ở đâu còn lâu mới nói!","Bạn hỏi làm gì?","Tôi từ chối trả lời câu hỏi của bạn","Bạn hãy tự tìm hiểu"]
+  },
+  {"tag": "Câu hỏi 6",
+   "patterns": ["Cho tôi câu trả lời khác", "Ý khác","Trả lời khác được không","Hãy trả lời lại","Trả lời câu hỏi"],
+   "responses": ["Tại sao tôi phải làm vậy?","Tôi không thích","Bạn muốn như nào?","Để làm gì","Không","Không rảnh","Bạn thật là rảnh"]
+  },
+  {"tag": "Câu hỏi 7",
+   "patterns": ["Bạn biết gì về ngôn ngữ lập trình", "Có bao nhiêu ngôn ngữ lập trình","Ngôn ngữ lập trình","Bạn biết các ngôn ngữ nào","bạn nói gì?"],
+   "responses": ["Python, Java, C#, C++,...","Google không tính phí!","Tự tìm hiểu","Python"]
+  },
+  {"tag": "java6",
+   "patterns": ["Biến instance của Java", "bạn biết gì về biến instance của java"],
+   "responses": ["Biến instance là các biến bên trong một lớp nhưng bên ngoài bất cứ phương thức nào. Những biến này được khởi tạo khi lớp được tải."]
+  },
+  {"tag": "java7",
+   "patterns": ["Biến tĩnh của Java", "bạn biết gì về biến tĩnh của java"],
+   "responses": ["Các biến lớp cũng còn được biết đến với tên gọi là biến tĩnh (biến static) được khai báo với từ khóa static trong một lớp, nhưng bên ngoài một phương thức, constructor hoặc một khối."]
+  },
+  {"tag": "java8",
+   "patterns": ["Constructor của Java", "bạn biết gì về constructor của java"],
+   "responses": ["Constructor được triệu hồi khi một đối tượng mới được tạo. Mỗi lớp có một Constructor. Nếu chúng ta không viết một constructor một cách tường minh cho một lớp, thì Java Compiler sẽ xây dựng một Constructor mặc định cho lớp đó."]
+  }
+]
+}
